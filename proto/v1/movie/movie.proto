@@ -2,8 +2,8 @@ syntax = "proto3";
 
 option go_package = "v1.movie";
 
-message GreetRequest {}
+message GreetRequest { string reqMsg = 1; }
 
-message GreetResponse {}
+message GreetResponse { string resMsg = 1; }
 
 service Greet { rpc sayHello(GreetRequest) returns (GreetResponse); }

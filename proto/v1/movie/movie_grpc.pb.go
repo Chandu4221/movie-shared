@@ -4,7 +4,7 @@
 // - protoc             (unknown)
 // source: v1/movie/movie.proto
 
-package v1_movies
+package v1_movie
 
 import (
 	context "context"
